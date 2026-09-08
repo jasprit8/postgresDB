@@ -1,7 +1,7 @@
 CREATE SCHEMA my_schema;
 
-CREATE TABLE my_schema.employee(
-    id SERIAL_PRIMARY_KEY,
+CREATE TABLE my_schema.employee (
+    id SERIAL PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
-    department VARCHAR(100),
+    department VARCHAR(100)
 );
